@@ -1,80 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T03:34:24.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="ni5-1XvJw9-FDUQQhhTZ" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T11:07:31.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.52" etag="R65B8Yu7Ff4wCEYtm0eP" version="20.5.1" type="github">
   <diagram id="tCjlD7nRdiX6uNqVaGSG" name="第 1 页">
-    <mxGraphModel dx="1069" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1087" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="khwmqzdyOH615zkk4Opw-21" value="界面层" style="ellipse;whiteSpace=wrap;html=1;shadow=0;direction=west;fontSize=17;" parent="1" vertex="1">
+        <mxCell id="khwmqzdyOH615zkk4Opw-21" value="文物风险" style="ellipse;whiteSpace=wrap;html=1;shadow=0;direction=west;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="100" y="170" width="290" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-24" value="业务逻辑层" style="ellipse;whiteSpace=wrap;html=1;shadow=0;direction=west;fontSize=17;" parent="1" vertex="1">
+        <mxCell id="khwmqzdyOH615zkk4Opw-24" value="文物，文保单位" style="ellipse;whiteSpace=wrap;html=1;shadow=0;direction=west;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="340" y="70" width="290" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-25" value="数据访问层" style="ellipse;whiteSpace=wrap;html=1;shadow=0;direction=west;fontSize=17;" parent="1" vertex="1">
+        <mxCell id="khwmqzdyOH615zkk4Opw-25" value="文物舆情" style="ellipse;whiteSpace=wrap;html=1;shadow=0;direction=west;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="580" y="170" width="290" height="180" as="geometry" />
         </mxCell>
         <mxCell id="khwmqzdyOH615zkk4Opw-26" value="" style="ellipse;whiteSpace=wrap;html=1;shadow=0;direction=west;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="270" y="420" width="430" height="260" as="geometry" />
         </mxCell>
         <mxCell id="khwmqzdyOH615zkk4Opw-27" value="" style="ellipse;whiteSpace=wrap;html=1;shadow=0;direction=west;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="60" y="600" width="290" height="180" as="geometry" />
+          <mxGeometry x="60" y="600" width="270" height="150" as="geometry" />
         </mxCell>
         <mxCell id="khwmqzdyOH615zkk4Opw-28" value="" style="ellipse;whiteSpace=wrap;html=1;shadow=0;direction=west;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="620" y="600" width="290" height="180" as="geometry" />
+          <mxGeometry x="625" y="605" width="290" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="khwmqzdyOH615zkk4Opw-29" target="khwmqzdyOH615zkk4Opw-33" edge="1">
+        <mxCell id="khwmqzdyOH615zkk4Opw-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;shape=link;width=6;" parent="1" source="khwmqzdyOH615zkk4Opw-29" target="khwmqzdyOH615zkk4Opw-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="140" y="510" />
+              <mxPoint x="200" y="650" />
+              <mxPoint x="200" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hBkb8uMDH17etPLo-Ms3-6" value="请求与输入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="khwmqzdyOH615zkk4Opw-57">
+        <mxCell id="hBkb8uMDH17etPLo-Ms3-6" value="数据分析" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="khwmqzdyOH615zkk4Opw-57" vertex="1" connectable="0">
           <mxGeometry x="0.0114" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-47" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-29" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;请求按钮&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="110" y="640" width="60" height="20" as="geometry" />
+        <mxCell id="khwmqzdyOH615zkk4Opw-29" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;文物进出境数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="110" y="640" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-30" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;应用输入&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="110" y="680" width="60" height="20" as="geometry" />
+        <mxCell id="khwmqzdyOH615zkk4Opw-30" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;文物保护相关文件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="90" y="680" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-31" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;规则可视化&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="210" y="680" width="65" height="20" as="geometry" />
+        <mxCell id="khwmqzdyOH615zkk4Opw-31" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;裁判文书网数据&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="210" y="680" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-32" value="界面层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="175" y="780" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hBkb8uMDH17etPLo-Ms3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="khwmqzdyOH615zkk4Opw-33" target="khwmqzdyOH615zkk4Opw-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-33" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;启动业务处理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
+        <mxCell id="khwmqzdyOH615zkk4Opw-33" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;文物被盗数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="360" y="500" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="khwmqzdyOH615zkk4Opw-34" target="khwmqzdyOH615zkk4Opw-37" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="490" y="540" />
-              <mxPoint x="490" y="510" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hBkb8uMDH17etPLo-Ms3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="khwmqzdyOH615zkk4Opw-34" target="khwmqzdyOH615zkk4Opw-35">
+        <mxCell id="khwmqzdyOH615zkk4Opw-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;shape=link;" parent="1" source="khwmqzdyOH615zkk4Opw-34" target="khwmqzdyOH615zkk4Opw-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-34" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;数据存取请求&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
+        <mxCell id="khwmqzdyOH615zkk4Opw-34" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;文物基础数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="360" y="536" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="hBkb8uMDH17etPLo-Ms3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="khwmqzdyOH615zkk4Opw-35" target="khwmqzdyOH615zkk4Opw-31">
+        <mxCell id="hBkb8uMDH17etPLo-Ms3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;shape=link;" parent="1" source="khwmqzdyOH615zkk4Opw-35" target="khwmqzdyOH615zkk4Opw-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hBkb8uMDH17etPLo-Ms3-5" value="处理结束" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="hBkb8uMDH17etPLo-Ms3-3">
+        <mxCell id="hBkb8uMDH17etPLo-Ms3-5" value="数据来源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="hBkb8uMDH17etPLo-Ms3-3" vertex="1" connectable="0">
           <mxGeometry x="0.1491" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-35" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;结束业务处理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
+        <mxCell id="khwmqzdyOH615zkk4Opw-35" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;文物案件数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="360" y="572" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="khwmqzdyOH615zkk4Opw-36" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="khwmqzdyOH615zkk4Opw-26" target="khwmqzdyOH615zkk4Opw-26" edge="1">
@@ -83,73 +70,44 @@
             <mxPoint x="460" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;启动数据请求过程&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
+        <mxCell id="khwmqzdyOH615zkk4Opw-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;文保单位数据&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="530" y="500" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="khwmqzdyOH615zkk4Opw-40" edge="1">
+        <mxCell id="khwmqzdyOH615zkk4Opw-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=link;" parent="1" target="khwmqzdyOH615zkk4Opw-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="630" y="515.0200000000001" as="sourcePoint" />
             <mxPoint x="760" y="625.02" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="760" y="515" />
-            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hBkb8uMDH17etPLo-Ms3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="khwmqzdyOH615zkk4Opw-38" target="khwmqzdyOH615zkk4Opw-39">
+        <mxCell id="khwmqzdyOH615zkk4Opw-38" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;文物保护工程数据&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="530" y="536" width="130" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hBkb8uMDH17etPLo-Ms3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;shape=link;" parent="1" source="khwmqzdyOH615zkk4Opw-39" target="khwmqzdyOH615zkk4Opw-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-38" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;执行数据存取&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="530" y="536" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="hBkb8uMDH17etPLo-Ms3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="khwmqzdyOH615zkk4Opw-39" target="khwmqzdyOH615zkk4Opw-34">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hBkb8uMDH17etPLo-Ms3-9" value="返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="hBkb8uMDH17etPLo-Ms3-8">
-          <mxGeometry x="-0.2931" relative="1" as="geometry">
-            <mxPoint x="10" y="4" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-39" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;结束数据请求过程&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
+        <mxCell id="khwmqzdyOH615zkk4Opw-39" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;文物拍卖数据&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="530" y="572" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="khwmqzdyOH615zkk4Opw-40" target="khwmqzdyOH615zkk4Opw-41" edge="1">
+        <mxCell id="khwmqzdyOH615zkk4Opw-40" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;全国重点文物保护单位名录接受外部访问&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="692" y="620" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="khwmqzdyOH615zkk4Opw-41" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;文物拍卖指定企业&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="717" y="670" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="khwmqzdyOH615zkk4Opw-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;shape=link;" parent="1" source="khwmqzdyOH615zkk4Opw-42" target="khwmqzdyOH615zkk4Opw-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-40" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;接受外部访问&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="710" y="630" width="100" height="20" as="geometry" />
+        <mxCell id="khwmqzdyOH615zkk4Opw-42" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;相关资质企业，人员&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="710" y="710" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="khwmqzdyOH615zkk4Opw-41" target="khwmqzdyOH615zkk4Opw-42" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="khwmqzdyOH615zkk4Opw-55" value="文物" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="395" y="440" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-41" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;数据库执行查询&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="710" y="670" width="100" height="20" as="geometry" />
+        <mxCell id="khwmqzdyOH615zkk4Opw-56" value="文保单位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="505" y="440" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="khwmqzdyOH615zkk4Opw-42" target="khwmqzdyOH615zkk4Opw-38" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-42" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;完成外部请求&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="710" y="710" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-43" value="数据访问层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="725" y="780" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-54" value="请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="755" y="517" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-55" value="业务处理程序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="370" y="440" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-56" value="数据存取程序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="490" y="440" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-60" value="业务逻辑层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="445" y="680" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="khwmqzdyOH615zkk4Opw-61" value="结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="630" y="690" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hBkb8uMDH17etPLo-Ms3-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;规则输入&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="210" y="640" width="60" height="20" as="geometry" />
+        <mxCell id="hBkb8uMDH17etPLo-Ms3-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;文物政务信息数据&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="210" y="640" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
