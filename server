@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-18T09:01:43.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="AEkrjojZ6U-vk-yeGoHP" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-18T09:02:25.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="8vZP_YeAZK_3_oh5uXY3" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="906" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,6 +24,11 @@
         </mxCell>
         <mxCell id="bYutTePJO4fAgcUyT1sB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bYutTePJO4fAgcUyT1sB-6" target="bYutTePJO4fAgcUyT1sB-18">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bYutTePJO4fAgcUyT1sB-50" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bYutTePJO4fAgcUyT1sB-19">
+          <mxGeometry x="-0.68" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bYutTePJO4fAgcUyT1sB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bYutTePJO4fAgcUyT1sB-6" target="bYutTePJO4fAgcUyT1sB-43">
           <mxGeometry relative="1" as="geometry" />
@@ -133,6 +138,11 @@
             <mxPoint x="350" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="bYutTePJO4fAgcUyT1sB-49" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bYutTePJO4fAgcUyT1sB-40">
+          <mxGeometry x="-0.04" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bYutTePJO4fAgcUyT1sB-36" value="聊天室是否无其他用户" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="145" y="810" width="150" height="80" as="geometry" />
         </mxCell>
@@ -151,6 +161,9 @@
         </mxCell>
         <mxCell id="bYutTePJO4fAgcUyT1sB-43" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bYutTePJO4fAgcUyT1sB-51" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="395" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
